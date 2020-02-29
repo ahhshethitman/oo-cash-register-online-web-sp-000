@@ -35,11 +35,11 @@ class CashRegister
 
     def void_last_transaction(last_transaction)
     
-     last_transaction = 
+     last_transaction
      
      
      
-      #@items.each do |items|
+      @items.each do |items|
         if @items.empty? 
           @total = 0.0
         else
