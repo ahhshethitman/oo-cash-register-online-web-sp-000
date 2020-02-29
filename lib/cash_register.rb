@@ -33,11 +33,11 @@ class CashRegister
     end
   end
 
-    def void_last_transaction
-     # @total -= @price 
-     voided_transaction = @items[-1]
-     voided_transaction = price,quantity
-     #voided_transaction = !add_item
+    def void_last_transaction(last_transaction)
+    
+     last_transaction = 
+     
+     
      
       #@items.each do |items|
         if @items.empty? 
