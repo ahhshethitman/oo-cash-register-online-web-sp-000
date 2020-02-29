@@ -9,7 +9,7 @@ class CashRegister
     @items = []
   end
  
-  def add_item(item, price, quantity = 1)
+  def add_item(item, price, quantity = 1,last_transaction)
     @price = price
     @total += price * quantity
     if quantity > 1
