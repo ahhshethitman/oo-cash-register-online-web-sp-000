@@ -40,11 +40,11 @@ class CashRegister
      
      
      
-      @items.each do |items|
-        if @items.empty? 
-          @total = 0.0
-        else
-      end
+      #@items.each do |items|
+        #if @items.empty? 
+         # @total = 0.0
+        #else
+      #end
     end
   end
 end
